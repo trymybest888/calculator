@@ -2,6 +2,7 @@
 .claude/
 .claude-flow/
 .mcp.json
+skills-lock.json
 
 # Ruflo local secrets and runtime data
 .env
