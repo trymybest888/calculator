@@ -1,0 +1,40 @@
+# Ruflo tooling (local only — not part of the calculator project)
+.claude/
+.claude-flow/
+.mcp.json
+
+# Ruflo local secrets and runtime data
+.env
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+.claude-flow/metrics/
+.claude-flow/mods/session.json
+.swarm/
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+credentials*.json
+
+# Claude Code local-only settings and backups
+.claude/settings.local.json
+*.bak
+*.bak-*
+
+# Dependencies and logs
+node_modules/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
