@@ -1,0 +1,50 @@
+{
+  "reference_baseline": "naive_yesterday",
+  "models": [
+    {
+      "model": "lightgbm",
+      "mae": 924.7919,
+      "rmse": 1207.917,
+      "mape": 2.9508,
+      "mae_improvement_pct": 59.7938,
+      "rmse_improvement_pct": 61.4608,
+      "mape_improvement_pct": 59.7006,
+      "label": "LightGBM"
+    },
+    {
+      "model": "lightgbm_past_weather",
+      "mae": 1856.4824,
+      "rmse": 2494.8242,
+      "mape": 5.8765,
+      "mae_improvement_pct": 19.2876,
+      "rmse_improvement_pct": 20.4015,
+      "mape_improvement_pct": 19.7441,
+      "label": "LightGBM (past weather only)"
+    },
+    {
+      "model": "naive_yesterday",
+      "mae": 2300.1209,
+      "rmse": 3134.2589,
+      "mape": 7.3222,
+      "mae_improvement_pct": 0.0,
+      "rmse_improvement_pct": 0.0,
+      "mape_improvement_pct": 0.0,
+      "label": "Naive: same hour yesterday"
+    },
+    {
+      "model": "naive_last_week",
+      "mae": 3511.4144,
+      "rmse": 4794.1539,
+      "mape": 10.9929,
+      "mae_improvement_pct": -52.6622,
+      "rmse_improvement_pct": -52.9597,
+      "mape_improvement_pct": -50.1311,
+      "label": "Naive: same hour last week"
+    }
+  ],
+  "primary_model": "lightgbm",
+  "test_period": {
+    "start": "2017-01-01",
+    "end": "2018-08-02"
+  }
+}
