@@ -1,0 +1,282 @@
+[
+  {
+    "params": {
+      "num_leaves": 63,
+      "min_child_samples": 20,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 1.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 972,
+    "mae": 859.1072175505863,
+    "rmse": 1151.7166476487027,
+    "mape": 2.6939819781824106
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1820,
+    "mae": 859.8261234922808,
+    "rmse": 1148.8292250786017,
+    "mape": 2.694590785126285
+  },
+  {
+    "params": {
+      "num_leaves": 127,
+      "min_child_samples": 20,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 10.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 832,
+    "mae": 862.2030455404617,
+    "rmse": 1158.0830880148835,
+    "mape": 2.7001320817831775
+  },
+  {
+    "params": {
+      "num_leaves": 63,
+      "min_child_samples": 100,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.7,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1040,
+    "mae": 862.6001023242305,
+    "rmse": 1155.8666829067615,
+    "mape": 2.7015327219217817
+  },
+  {
+    "params": {
+      "num_leaves": 63,
+      "min_child_samples": 20,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 0.7,
+      "lambda_l2": 10.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1346,
+    "mae": 863.9397422047333,
+    "rmse": 1155.302974521176,
+    "mape": 2.7062566950771703
+  },
+  {
+    "params": {
+      "num_leaves": 255,
+      "min_child_samples": 50,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 10.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 672,
+    "mae": 866.1396011789636,
+    "rmse": 1165.0988424818622,
+    "mape": 2.7151639925290785
+  },
+  {
+    "params": {
+      "num_leaves": 63,
+      "min_child_samples": 100,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 0.7,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 850,
+    "mae": 866.2668390297597,
+    "rmse": 1161.2410208148292,
+    "mape": 2.716177184027652
+  },
+  {
+    "params": {
+      "num_leaves": 127,
+      "min_child_samples": 100,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 0.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 654,
+    "mae": 866.5110595881509,
+    "rmse": 1166.0134371060715,
+    "mape": 2.7102017589647036
+  },
+  {
+    "params": {
+      "num_leaves": 127,
+      "min_child_samples": 20,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 748,
+    "mae": 867.2042000967181,
+    "rmse": 1156.723375122982,
+    "mape": 2.722419317900675
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 10.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 1724,
+    "mae": 867.7464667033764,
+    "rmse": 1153.9971390843045,
+    "mape": 2.7206159831636594
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 10.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 2379,
+    "mae": 868.1277660772303,
+    "rmse": 1154.1652336109883,
+    "mape": 2.717181538222433
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 1.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 1759,
+    "mae": 868.3311052215531,
+    "rmse": 1155.470744952463,
+    "mape": 2.7232036346485544
+  },
+  {
+    "params": {
+      "num_leaves": 127,
+      "min_child_samples": 100,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 0.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 588,
+    "mae": 868.634773139521,
+    "rmse": 1154.6807223850642,
+    "mape": 2.7301151749014525
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 1.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1705,
+    "mae": 868.6349117234934,
+    "rmse": 1158.059153677701,
+    "mape": 2.7155557781671207
+  },
+  {
+    "params": {
+      "num_leaves": 127,
+      "min_child_samples": 20,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 669,
+    "mae": 869.1309919695393,
+    "rmse": 1166.6092614675395,
+    "mape": 2.729023687106253
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1478,
+    "mae": 869.596794620947,
+    "rmse": 1155.2396293751524,
+    "mape": 2.7318886483857177
+  },
+  {
+    "params": {
+      "num_leaves": 255,
+      "min_child_samples": 20,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 1.0,
+      "lambda_l2": 1.0,
+      "bagging_freq": 0
+    },
+    "best_iteration": 673,
+    "mae": 870.2834034604842,
+    "rmse": 1168.1585763328342,
+    "mape": 2.7273666707638644
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 20,
+      "feature_fraction": 1.0,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1939,
+    "mae": 871.1627715706226,
+    "rmse": 1162.8531905477332,
+    "mape": 2.726719990245199
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 50,
+      "feature_fraction": 0.6,
+      "bagging_fraction": 0.9,
+      "lambda_l2": 1.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1714,
+    "mae": 871.8913602935351,
+    "rmse": 1160.2894718407938,
+    "mape": 2.7342348880082765
+  },
+  {
+    "params": {
+      "num_leaves": 31,
+      "min_child_samples": 100,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.7,
+      "lambda_l2": 0.0,
+      "bagging_freq": 1
+    },
+    "best_iteration": 1306,
+    "mae": 874.7783245698358,
+    "rmse": 1163.058817749509,
+    "mape": 2.747299217007983
+  }
+]
