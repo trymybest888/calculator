@@ -1,0 +1,322 @@
+{
+  "by_day_type": [
+    {
+      "day_type": "holiday",
+      "model": "naive_yesterday",
+      "days": 17,
+      "mae": 2708.7525,
+      "rmse": 3325.7689,
+      "mape": 8.5219
+    },
+    {
+      "day_type": "holiday",
+      "model": "naive_last_week",
+      "days": 17,
+      "mae": 4147.2083,
+      "rmse": 5285.5374,
+      "mape": 12.9111
+    },
+    {
+      "day_type": "holiday",
+      "model": "lightgbm",
+      "days": 17,
+      "mae": 1156.8865,
+      "rmse": 1495.8646,
+      "mape": 3.6871
+    },
+    {
+      "day_type": "holiday",
+      "model": "lightgbm_past_weather",
+      "days": 17,
+      "mae": 1758.193,
+      "rmse": 2353.2926,
+      "mape": 5.8519
+    },
+    {
+      "day_type": "day after holiday",
+      "model": "naive_yesterday",
+      "days": 15,
+      "mae": 2836.0778,
+      "rmse": 3824.0873,
+      "mape": 8.3668
+    },
+    {
+      "day_type": "day after holiday",
+      "model": "naive_last_week",
+      "days": 15,
+      "mae": 4230.1972,
+      "rmse": 5049.9874,
+      "mape": 12.3814
+    },
+    {
+      "day_type": "day after holiday",
+      "model": "lightgbm",
+      "days": 15,
+      "mae": 979.2777,
+      "rmse": 1277.4078,
+      "mape": 2.8923
+    },
+    {
+      "day_type": "day after holiday",
+      "model": "lightgbm_past_weather",
+      "days": 15,
+      "mae": 2295.8631,
+      "rmse": 2948.563,
+      "mape": 6.6672
+    },
+    {
+      "day_type": "weekday",
+      "model": "naive_yesterday",
+      "days": 385,
+      "mae": 2150.4521,
+      "rmse": 2935.1722,
+      "mape": 6.5618
+    },
+    {
+      "day_type": "weekday",
+      "model": "naive_last_week",
+      "days": 385,
+      "mae": 3494.0949,
+      "rmse": 4802.7301,
+      "mape": 10.6818
+    },
+    {
+      "day_type": "weekday",
+      "model": "lightgbm",
+      "days": 385,
+      "mae": 930.7025,
+      "rmse": 1213.3882,
+      "mape": 2.8991
+    },
+    {
+      "day_type": "weekday",
+      "model": "lightgbm_past_weather",
+      "days": 385,
+      "mae": 1797.5903,
+      "rmse": 2394.5051,
+      "mape": 5.555
+    },
+    {
+      "day_type": "weekend",
+      "model": "naive_yesterday",
+      "days": 162,
+      "mae": 2563.3085,
+      "rmse": 3481.5202,
+      "mape": 8.9066
+    },
+    {
+      "day_type": "weekend",
+      "model": "naive_last_week",
+      "days": 162,
+      "mae": 3419.302,
+      "rmse": 4694.1837,
+      "mape": 11.4024
+    },
+    {
+      "day_type": "weekend",
+      "model": "lightgbm",
+      "days": 162,
+      "mae": 881.3446,
+      "rmse": 1153.2084,
+      "mape": 3.0016
+    },
+    {
+      "day_type": "weekend",
+      "model": "lightgbm_past_weather",
+      "days": 162,
+      "mae": 1966.0728,
+      "rmse": 2689.4495,
+      "mape": 6.5699
+    }
+  ],
+  "by_weather": [
+    {
+      "weather": "normal",
+      "model": "naive_yesterday",
+      "days": 545,
+      "mae": 2267.3535,
+      "rmse": 3101.6575,
+      "mape": 7.345
+    },
+    {
+      "weather": "normal",
+      "model": "naive_last_week",
+      "days": 545,
+      "mae": 3297.0063,
+      "rmse": 4488.4972,
+      "mape": 10.6308
+    },
+    {
+      "weather": "normal",
+      "model": "lightgbm",
+      "days": 545,
+      "mae": 909.6262,
+      "rmse": 1187.3305,
+      "mape": 2.9559
+    },
+    {
+      "weather": "normal",
+      "model": "lightgbm_past_weather",
+      "days": 545,
+      "mae": 1786.9897,
+      "rmse": 2413.7692,
+      "mape": 5.7894
+    },
+    {
+      "weather": "cold (min <= -10 C)",
+      "model": "naive_yesterday",
+      "days": 12,
+      "mae": 1937.1597,
+      "rmse": 2392.1771,
+      "mape": 4.7767
+    },
+    {
+      "weather": "cold (min <= -10 C)",
+      "model": "naive_last_week",
+      "days": 12,
+      "mae": 6942.2951,
+      "rmse": 7721.5243,
+      "mape": 17.2425
+    },
+    {
+      "weather": "cold (min <= -10 C)",
+      "model": "lightgbm",
+      "days": 12,
+      "mae": 1119.0157,
+      "rmse": 1428.3,
+      "mape": 2.7371
+    },
+    {
+      "weather": "cold (min <= -10 C)",
+      "model": "lightgbm_past_weather",
+      "days": 12,
+      "mae": 3637.7221,
+      "rmse": 4150.291,
+      "mape": 8.9075
+    },
+    {
+      "weather": "hot (max >= 32 C)",
+      "model": "naive_yesterday",
+      "days": 22,
+      "mae": 3309.8371,
+      "rmse": 4134.8296,
+      "mape": 8.1461
+    },
+    {
+      "weather": "hot (max >= 32 C)",
+      "model": "naive_last_week",
+      "days": 22,
+      "mae": 6951.4981,
+      "rmse": 8560.8007,
+      "mape": 16.5563
+    },
+    {
+      "weather": "hot (max >= 32 C)",
+      "model": "lightgbm",
+      "days": 22,
+      "mae": 1194.5485,
+      "rmse": 1537.4347,
+      "mape": 2.9405
+    },
+    {
+      "weather": "hot (max >= 32 C)",
+      "model": "lightgbm_past_weather",
+      "days": 22,
+      "mae": 2606.4213,
+      "rmse": 3174.895,
+      "mape": 6.3802
+    }
+  ],
+  "worst_days": [
+    {
+      "date": "2017-06-20",
+      "mape": 9.5,
+      "temp_max": 29.0,
+      "temp_min": 21.9,
+      "holiday": "",
+      "day_type": "weekday",
+      "weather": "normal"
+    },
+    {
+      "date": "2018-05-28",
+      "mape": 9.03,
+      "temp_max": 21.6,
+      "temp_min": 13.9,
+      "holiday": "Memorial Day",
+      "day_type": "holiday",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-09-23",
+      "mape": 8.52,
+      "temp_max": 31.8,
+      "temp_min": 19.8,
+      "holiday": "",
+      "day_type": "weekend",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-05-20",
+      "mape": 8.19,
+      "temp_max": 22.3,
+      "temp_min": 13.8,
+      "holiday": "",
+      "day_type": "weekend",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-09-22",
+      "mape": 7.46,
+      "temp_max": 30.3,
+      "temp_min": 19.6,
+      "holiday": "",
+      "day_type": "weekday",
+      "weather": "normal"
+    },
+    {
+      "date": "2018-01-22",
+      "mape": 6.72,
+      "temp_max": 13.6,
+      "temp_min": 4.4,
+      "holiday": "",
+      "day_type": "weekday",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-09-21",
+      "mape": 6.69,
+      "temp_max": 30.7,
+      "temp_min": 21.0,
+      "holiday": "",
+      "day_type": "weekday",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-07-30",
+      "mape": 6.46,
+      "temp_max": 27.7,
+      "temp_min": 15.9,
+      "holiday": "",
+      "day_type": "weekend",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-09-01",
+      "mape": 6.39,
+      "temp_max": 22.0,
+      "temp_min": 13.6,
+      "holiday": "",
+      "day_type": "weekday",
+      "weather": "normal"
+    },
+    {
+      "date": "2017-08-20",
+      "mape": 6.12,
+      "temp_max": 29.7,
+      "temp_min": 19.8,
+      "holiday": "",
+      "day_type": "weekend",
+      "weather": "normal"
+    }
+  ]
+}

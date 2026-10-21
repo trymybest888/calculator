@@ -1,0 +1,90 @@
+[
+  {
+    "feature": "load_lag_24",
+    "gain_pct": 57.9519
+  },
+  {
+    "feature": "temperature",
+    "gain_pct": 13.8347
+  },
+  {
+    "feature": "load_lag_168",
+    "gain_pct": 13.2538
+  },
+  {
+    "feature": "day_of_week",
+    "gain_pct": 3.1273
+  },
+  {
+    "feature": "temp_day_mean",
+    "gain_pct": 2.6667
+  },
+  {
+    "feature": "hour",
+    "gain_pct": 2.2269
+  },
+  {
+    "feature": "temp_day_max",
+    "gain_pct": 1.7634
+  },
+  {
+    "feature": "load_lag_336",
+    "gain_pct": 1.1164
+  },
+  {
+    "feature": "temp_change_24",
+    "gain_pct": 0.7944
+  },
+  {
+    "feature": "temp_day_min",
+    "gain_pct": 0.5611
+  },
+  {
+    "feature": "is_weekend",
+    "gain_pct": 0.4267
+  },
+  {
+    "feature": "day_of_year",
+    "gain_pct": 0.3987
+  },
+  {
+    "feature": "is_holiday",
+    "gain_pct": 0.3377
+  },
+  {
+    "feature": "load_roll_mean_168",
+    "gain_pct": 0.2705
+  },
+  {
+    "feature": "temp_roll_mean_72",
+    "gain_pct": 0.2549
+  },
+  {
+    "feature": "load_lag_48",
+    "gain_pct": 0.2412
+  },
+  {
+    "feature": "temp_lag_24",
+    "gain_pct": 0.2287
+  },
+  {
+    "feature": "load_roll_mean_24",
+    "gain_pct": 0.2173
+  },
+  {
+    "feature": "load_lag_72",
+    "gain_pct": 0.1811
+  },
+  {
+    "feature": "holiday_yesterday",
+    "gain_pct": 0.076
+  },
+  {
+    "feature": "month",
+    "gain_pct": 0.0583
+  },
+  {
+    "feature": "holiday_last_week",
+    "gain_pct": 0.0125
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "naive_yesterday": {
+    "validation": {
+      "mae": 2084.1228,
+      "rmse": 2863.7542,
+      "mape": 6.5722
+    },
+    "test": {
+      "mae": 2300.1209,
+      "rmse": 3134.2589,
+      "mape": 7.3222
+    }
+  },
+  "naive_last_week": {
+    "validation": {
+      "mae": 3323.4976,
+      "rmse": 4602.089,
+      "mape": 10.2416
+    },
+    "test": {
+      "mae": 3511.4144,
+      "rmse": 4794.1539,
+      "mape": 10.9929
+    }
+  },
+  "lightgbm": {
+    "validation": {
+      "mae": 859.1072,
+      "rmse": 1151.7166,
+      "mape": 2.694
+    },
+    "test": {
+      "mae": 924.7919,
+      "rmse": 1207.917,
+      "mape": 2.9508
+    }
+  },
+  "lightgbm_past_weather": {
+    "validation": {
+      "mae": 1625.3696,
+      "rmse": 2269.2454,
+      "mape": 5.0301
+    },
+    "test": {
+      "mae": 1856.4824,
+      "rmse": 2494.8242,
+      "mape": 5.8765
+    }
+  }
+}
