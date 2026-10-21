@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Design tokens. Components use these roles, never raw hex. */
+:root {
+  color-scheme: light;
+  --surface-0: #f4f7f6;
+  --surface-1: #ffffff;
+  --border: #e1e7e4;
+  --text-primary: #0f1a17;
+  --text-secondary: #4d5b56;
+  --text-muted: #77857f;
+  --accent: #0e8a62;
+  --accent-soft: #e3f4ec;
+  --grid: #e8ecea;
+  /* Chart series (fixed per model). */
+  --series-actual: #0f1a17;
+  --series-model: #2a78d6;
+  --series-baseline: #1baf7a;
+  --series-bar: #1baf7a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface-0: #0d1412;
+    --surface-1: #151f1c;
+    --border: #26332e;
+    --text-primary: #eef3f1;
+    --text-secondary: #b4c2bc;
+    --text-muted: #85948e;
+    --accent: #34c48f;
+    --accent-soft: #163128;
+    --grid: #22302b;
+    --series-actual: #eef3f1;
+    --series-model: #3987e5;
+    --series-baseline: #199e70;
+    --series-bar: #199e70;
+  }
+}
+
+@theme inline {
+  --color-surface-0: var(--surface-0);
+  --color-surface-1: var(--surface-1);
+  --color-border: var(--border);
+  --color-ink: var(--text-primary);
+  --color-ink-2: var(--text-secondary);
+  --color-ink-3: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--surface-0);
+  color: var(--text-primary);
+}
