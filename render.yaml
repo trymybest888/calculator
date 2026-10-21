@@ -1,0 +1,18 @@
+# Render Blueprint for the FastAPI backend.
+# The API only serves precomputed artifacts in api/artifacts, so it installs
+# just FastAPI + Uvicorn (no pandas / LightGBM).
+services:
+  - type: web
+    name: energy-load-forecast-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r api/requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Set in the Render dashboard to your Vercel URL, e.g.
+      # https://energy-load-forecasting.vercel.app,http://localhost:3000
+      - key: ALLOWED_ORIGINS
+        sync: false
