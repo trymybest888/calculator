@@ -1,0 +1,12 @@
+{
+  "raw_rows": 145366,
+  "start": "2002-01-01 01:00:00",
+  "end": "2018-08-03 00:00:00",
+  "missing_values": 0,
+  "duplicate_timestamps": 4,
+  "missing_timestamps": 30,
+  "interpolated_hours": 30,
+  "unfilled_hours": 0,
+  "weather_missing_after_join": 0,
+  "final_rows": 145392
+}

@@ -39,3 +39,17 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (raw Kaggle file is not redistributable; the rest is regenerated)
+data/raw/
+data/external/
+data/processed/
+
+# Trained models (rebuild with python -m src.train_lightgbm)
+models/
